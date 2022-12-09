@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>feedback application form for students</title>
+        <style>
+            body{
+                background-image: url(cloud2.jpg);
+            }
+            table tbody tr td{
+                color: red;
+            }
+            h2{
+                margin-left: 400px;
+            }
+            #more{
+            background-color: chartreuse;
+            }
+            #more2{
+            color: blue;
+            }
+        </style>
+    </head>
+    <body style="background-color: lightseagreen">
+        <form>
+            <h2> Student Registration form</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><lable>Full Name </lable></td>
+                        <td><input type="text" required autofocus maxlength="40" placeholder="capital latters only"></td>
+                    <tr>
+                        <td><lable>Email</lable></td>
+                        <td><input type="mail" required,placeholder="abc@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td><laable>Password</laable></td>
+                        <td><input type="password" required,></td>
+                    </tr>
+                    <tr>
+                        <td><lable>Contact No.</lable></td>
+                        <td><input input="numbr" required, onlynumber></td>
+                    </tr>
+                    <tr>
+                        <td><lable>profile photo</lable></td>
+                        <td><input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td><lable>Daten of Birth</lable></td>
+                        <td><input type="date" required></td>
+                    </tr>
+                    <tr>
+                        <td><lable>Select Gender</lable></td>
+                        <td><input type="radio" name="gender"><lable>male</lable>
+                            <input type="radio" name="gender"><lable>female</lable>
+                            <input type="radio" name="gender"><lable>other</lable></td>    
+                    </tr>
+                    <tr>
+                        <td><lable>Martial Status</lable></td>
+                        <td><input type="radio" name="yes or no"><lable>yes</lable>
+                        <input type="radio" name="yes or no"><lable>No</lable></td>
+                    </tr>
+                    <tr>
+                        <td><lable>Tool & Technology</lable></td>
+                        <td>
+                           <select style="background-color: green">
+                            <option>Angular</option>
+                            <option>React</option>
+                            <option>python</option>
+                            <option>java</option>
+                            <option>jenkin</option>
+                            <option>Git</option>
+                            <option>Dat base</option>
+                           </select> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><lable>profile</lable></td>
+                        <td>
+                            <input type="checkbox"><lable>UI Developer</lable>
+                            <input type="checkbox"><lable>Backend Developer</lable>
+                            <input type="checkbox"><lable>Full stack developer</lable>
+                            <input type="checkbox"><lable>DevOps Engineer</lable>
+                            <input type="checkbox"><lable>Tester</lable>
+                        </td>
+                        <tr>
+                            <td><lable>Country</lable></td>
+                            <td><input type="text" value="india", readonly></td>
+                        </tr>
+                            <tr>
+                                <td><lable>Pressent Address</lable></td>
+                                <td><input type="text" style="height: 150px"></td>
+                            </tr>
+                            <tr><td id="more"><input type="submit"></td>
+                            <td id="more2"><input type="reset"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
